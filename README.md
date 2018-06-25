@@ -9,12 +9,12 @@ $ pwd
 /Users/pivotal/workspace/rust-buildpack
 
 $ buildpack-packager --cached 
-Downloading rust version 1.10.0 from: file:///Users/pivotal/workspace/rust-output/rust-1.10.0.tgz
+Downloading rust version 1.28.0-nightly from: file:///Users/pivotal/workspace/rust-output/rust-1.28.0-nightly.tgz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  232M  100  232M    0     0   292M      0 --:--:-- --:--:-- --:--:--  279M
-  Using rust version 1.10.0 with size 233M
-  rust version 1.10.0 matches the manifest provided md5 checksum of 1460714f450f3f1d2ff2032acdcbb436
+  Using rust version 1.28.0-nightly with size 233M
+  rust version 1.28.0-nightly matches the manifest provided md5 checksum of 1460714f450f3f1d2ff2032acdcbb436
 
 Cached buildpack created and saved as /Users/pivotal/workspace/rust-buildpack/rust_buildpack-cached-v0.0.2.zip with a size of 106M
 
