@@ -18,7 +18,7 @@ CURL="curl -s -L --retry 15 --retry-delay 2" # retry for up to 30 seconds
 if [ -d "$buildpack_dir/dependencies" ]; then
     # install from $buildpack_dir/dependencies
     echo "-----> Installing Rust from cached buildpack"
-    dependency_url="file:///Users/pivotal/workspace/rust-output/rust-1.10.0.tgz"
+    dependency_url="file:///Users/pivotal/workspace/rust-output/rust-1.28.0-nightly.tgz"
     local_rust_file_url=$($buildpack_dir/compile-extensions/bin/translate_dependency_url $dependency_url)
 
     tmp_dir="/tmp/rust_install"
